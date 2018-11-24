@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"
+    <title></title>
+  </head>
+  <style type="text/css">
+  	*, input, select, textarea {
+  	padding: 5px;
+  	margin: 5px;
+  }
+  </style>
+  <body>
+    <form method="GET">
+    <fieldset>
+    	<legend>Identité</legend>
+    	<label for="Prénom">Prénom</label>
+    	<input type="text" name="Prénom" placeholder="Saisir votre prénom" required=""><br>
+    	<label for="Nom">Nom</label>
+    	<input type="text" name="Nom" placeholder="Saisir votre nom" required=""><br>
+        <label for="Courriel">Courriel</label>
+        <input type="text" name="Courriel" placeholder="Saisir votre mail" required=""><br>
+    </fieldset>
+    <fieldset>
+    	<legend>Informations complémentaires</legend>
+        <label for="Homme">Homme</label>
+    	<input type="radio" name="sexe"><br>
+        <label for="Femme">Femme</label>
+        <input type="radio" name="sexe"><br>
+        <label for="Ville">Ville</label>
+        <select>
+        	<option value="">Brest</option>
+        	<option value="">Paris</option>
+        	<option value="">Nouméa</option>
+        </select><br>
+        <textarea name="textarea" rows="4" cols="30">Votre message</textarea><br>
+    </fieldset>
+    </form>
+        <input type="submit" value="Envoyer le formulaire" rows="5" cols="60" >  
+  <script type="text/javascript">
+  	var x= boolean(IsformValid)
+
+
+  </script>
+  </body>
+</html>
+
+
